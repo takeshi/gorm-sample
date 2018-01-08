@@ -3,6 +3,8 @@ package model
 import "testing"
 import "github.com/jinzhu/gorm"
 import "encoding/json"
+import _ "github.com/mattn/go-sqlite3"
+import _ "github.com/jinzhu/gorm/dialects/sqlite"
 
 func TestPet(t *testing.T) {
 	db, err := gorm.Open("sqlite3", "test.db")

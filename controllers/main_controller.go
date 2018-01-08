@@ -1,13 +1,15 @@
 package controllers
 
 import "net/http"
-import "fmt"
+
 import "app/util"
 
+var fileName string
+
 func init() {
-	fmt.Println(util.GetCurrentFile())
+	fileName = util.GetCurrentFile()
 }
 
 func mainControler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Sample Text"))
+	w.Write([]byte("Sample Text " + fileName))
 }
