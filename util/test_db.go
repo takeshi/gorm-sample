@@ -10,11 +10,12 @@ import (
 
 var db *gorm.DB
 
-func getDb() *gorm.DB {
+func GetDb() *gorm.DB {
 	return db
 }
 
 func CreateTestDb() *gorm.DB {
+
 	var err error
 	db, err = gorm.Open("sqlite3", "test.db")
 
@@ -24,4 +25,5 @@ func CreateTestDb() *gorm.DB {
 	}
 
 	return db
+
 }
