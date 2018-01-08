@@ -2,8 +2,8 @@ package controllers
 
 import "net/http"
 
-import "app/util"
-import "app/model"
+import "github.com/takeshi/gorm-sample/util"
+import "github.com/takeshi/gorm-sample/model"
 import "encoding/json"
 
 // var fileName string

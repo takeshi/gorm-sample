@@ -1,10 +1,11 @@
 package model
 
 import (
-	"app/util"
 	"fmt"
 	"os"
 	"testing"
+
+	"github.com/takeshi/gorm-sample/util"
 
 	"github.com/jinzhu/gorm"
 )

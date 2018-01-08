@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"app/controllers"
-	"app/util"
+	"github.com/takeshi/gorm-sample/controllers"
+	"github.com/takeshi/gorm-sample/util"
 )
 
 func main() {

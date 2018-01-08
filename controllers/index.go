@@ -2,7 +2,7 @@ package controllers
 
 import "github.com/gorilla/mux"
 import "fmt"
-import "app/util"
+import "github.com/takeshi/gorm-sample/util"
 
 func init() {
 	fmt.Println(util.GetCurrentFile())

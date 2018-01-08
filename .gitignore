@@ -2,3 +2,4 @@
 *.exe~
 *.db
 debug
+vendor

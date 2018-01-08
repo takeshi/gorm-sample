@@ -14,6 +14,9 @@ func GetDb() *gorm.DB {
 	return db
 }
 
+/*
+
+ */
 func CreateTestDb() *gorm.DB {
 
 	var err error
